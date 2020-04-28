@@ -1,0 +1,40 @@
+main, body, html {
+    height: 100%;
+}
+
+header {
+    padding-left: 5%;
+    padding-right: 5%;
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#navbar {
+    display: inline-block;
+    /* vertical-align: bottom; */ /*drop the navbar to the bottom, I think it's ugly */
+}
+
+#userArea {
+    float: left;
+}
+
+.backgroundImg {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fighterPlane {
+    background-image: url(assets/cover1.png);
+}
+
+#suitcaseBack {
+    background-image: url(assets/parallax1.jpg);
+}
+
+#cargoPlane {
+    background-image: url(assets/parallax2.jpg);
+}
