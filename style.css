@@ -25,6 +25,14 @@ header {
     text-align: center;
 }
 
+#userArea .far {
+    font-size: 20px;
+}
+
+#userArea .fas {
+    font-size: 20px;
+}
+
 #userArea .number {
     display: inline-block;
     color: #ffffff;
@@ -86,6 +94,14 @@ header {
     display:block;
 }
 
+#catalogDiv .fas {
+    color: var(--blueColor);
+}
+
+#catalogDiv .far {
+    color: gold;
+}
+
 #catalogDiv button {
     display: block;
     margin-left: 0%;
@@ -106,7 +122,6 @@ header {
     padding-left: 5%;
     padding-right: 5%;
 }
-
 
 #brandOne {
     padding-left: 10%;
