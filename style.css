@@ -1,3 +1,7 @@
+:root {
+    --blueColor: rgb(32, 164, 193);
+}
+
 main, body, html {
     height: 100%;
 }
@@ -61,6 +65,27 @@ header {
     display: inline-block;
 }
 
+.productInfo {
+    display: none;
+}
+
+.col-lg-2 h6 {
+    font-weight: bold;
+}
+
+.productInfo p {
+    color: var(--blueColor);
+    font-weight:bold ;
+}
+
+.col-lg-2:hover {
+    border: 2px solid skyblue;
+}
+
+.col-lg-2:hover .productInfo {
+    display:block;
+}
+
 #catalogDiv button {
     display: block;
     margin-left: 0%;
@@ -99,10 +124,47 @@ header {
 }
 
 #icons {
-    color: #000000;
+    color: var(--blueColor);
     font-size: 50px;
 }
 
 #cargoPlane {
     background-image: url(assets/parallax2.jpg);
+}
+
+#aboutDiv {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#aboutDiv h2 {
+    font-weight: bold;
+}
+
+#aboutUs {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#aboutUs h6 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#aboutUs p {
+    font-size: 12px;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgb(210, 237, 242);
+}
+
+footer h6 {
+    font-weight: bold;
 }
